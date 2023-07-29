@@ -1,3 +1,41 @@
 .container {
-    color: red;
+    outline: dashed 1px black;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.initial {
+    outline: solid 1px;
+    width: 75px;
+    height: 75px;
+    display: table-cell;
+    vertical-align: middle;
+    transform: translate(618%, 20%);
+}
+
+.name {
+    font-family: "copperplate", fantasy;
+}
+
+.header {
+    background-color: midnightblue;
+    max-width: 1200px;
+    text-align: center;
+    height: 125px;
+    margin: 0 auto;
+    color: white;
+}
+.cv {
+    outline:solid 5px black;
+    font-family: "Times New Roman", Times, serif;
+    height: 100vh;
+    width: 1000px;
+    transform: translate(35%, 0%);
+}
+.section2 {
+    background-color: lightgray;
+    height: 812px;
+    width: 400px;
+    transform: translate(150%, 0%);
 }
