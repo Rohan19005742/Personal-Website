@@ -1,8 +1,9 @@
 .container {
-    outline: dashed 1px black;
     height: 100vh;
     width: 100vw;
     position: relative;
+    transform: translate(-22%, 0%);
+    font-size: 14px;
 }
 
 .initial {
@@ -29,13 +30,192 @@
 .cv {
     outline:solid 5px black;
     font-family: "Times New Roman", Times, serif;
-    height: 100vh;
+    height: 930px;
     width: 1000px;
     transform: translate(35%, 0%);
 }
+.section1{
+    transform: translate(3%,0);
+}
+
 .section2 {
     background-color: lightgray;
-    height: 812px;
+    height: 805px;
     width: 400px;
-    transform: translate(150%, 0%);
+    transform: translate(150%, -86.34%);
+}
+
+.info {
+    transform: translate(10%, 0%);
+}
+
+.about-me-button {
+    text-align: right;
+    padding: 5px;
+}
+
+.email {
+    padding: 5px;
+}
+
+.phone-number {
+    padding: 5px;
+}
+
+.city {
+    padding: 5px;
+}
+
+.linkedin {
+    padding: 5px;
+}
+
+.line1 {
+    outline: solid 1px black;
+    width: 300px;
+    transform: translate(15%, 20px);
+}
+
+.Education {
+    transform: translate(10%, 40px);
+}
+
+.education {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.uni {
+    font-weight: bold;
+}
+.course{
+    transform: translate(0, -10px);
+}
+.uni-info1 {
+    transform: translate(0, -20px);
+}
+.uni-info2 {
+    transform: translate(0, -30px);
+}
+.uni-info3 {
+    transform: translate(0, -40px);
+}
+.college {
+    font-weight: bold;
+    transform: translate(0, -40px);
+}
+
+.course2 {
+    transform: translate(0, -50px);
+}
+.college-info1{
+    transform: translate(0, -60px);
+}
+.college-info2{
+    transform: translate(0, -70px);
+}
+.college-info3{
+    transform: translate(0, -80px);
+}
+
+.secondary {
+    font-weight: bold;
+    transform: translate(0, -80px);
+}
+.course3 {
+    transform: translate(0, -90px);
+}
+.secondary-info1{
+    transform: translate(0, -100px);
+}
+.secondary-info2{
+    transform: translate(0, -110px);
+}
+.secondary-info3{
+    transform: translate(0, -120px);
+}
+.secondary-info4{
+    transform: translate(0, -130px);
+}
+.secondary-info5{
+    transform: translate(0, -140px);
+}
+
+.line2 {
+    outline: solid 1px black;
+    width: 300px;
+    transform: translate(15%, -85px);
+}
+.Skills {
+    transform: translate(10%, -60px);
+}
+
+.skills {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.skills-list{
+    transform: translate(-5%,0);
+}
+.pro-summary-title{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    transform: translate(0%, 15px);
+}
+.professional-summary-text{
+    width: 550px;
+    transform: translate(0%, 15px);
+}
+
+.line3 {
+    outline: solid 1px black;
+    width: 550px;
+    transform: translate(0%, 20px);
+}
+
+.work-history-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    transform: translate(0%, 35px);
+}
+.expedia {
+    font-weight: bold;
+    transform: translate(0, 35px);
+}
+
+.expedia-description {
+    width: 550px;
+    transform: translate(-2%, 20px);
+}
+
+.five-guys {
+    font-weight: bold;
+    transform: translate(0, 30px);
+}
+
+.five-guys-description {
+    width: 550px;
+    transform: translate(-2%, 20px);
+}
+.line4 {
+    outline: solid 1px black;
+    width: 550px;
+    transform: translate(0%, 25px);
+}
+.programming-language-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    transform: translate(0%, 40px);
+}
+.programming-text {
+    transform: translate(0%, 40px);
+}
+.programming-languages{
+    transform: translate(-2%, 40px);
 }
